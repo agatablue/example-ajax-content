@@ -1,0 +1,33 @@
+body {
+    background-color: #0b97c4;
+}
+
+#main-contener {
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -100px 0 0 -150px;
+}
+
+.one {
+    color: white;
+    font-size:12px;
+    font-family: Arial;
+    transition: 1s;
+}
+
+.two {
+    color: yellow;
+    font-size:14px;
+    font-family: Verdana;
+    transition: 1s;
+}
+
+.three {
+    color: pink;
+    font-size:16px;
+    font-family: "Times New Roman";
+    transition: 1s;
+}

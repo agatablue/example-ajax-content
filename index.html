@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Zadanie</title>
+
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" id="change-style" href="css/style1.css">
+</head>
+<body >
+
+
+<script id="entry-template" type="text/x-handlebars-template">
+    <div class= {{divFirst.className}}>
+        <h1>{{divFirst.h1_text_contents}}</h1>
+        <p>
+            {{divFirst.p_text_contents}}
+        </p>
+    </div>
+
+    <div class="{{divSecond.className}}">
+        <b>{{divSecond.b_text_contents}}</b>
+        <span>
+            <span>
+                {{divSecond.span_text_contents}}
+            </span>
+        </span>
+    </div>
+</script>
+
+
+<div id="main-contener">
+
+</div>
+
+
+
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="vendor/Handlebars/handlebars-v3.0.3.js"></script>
+<script src="vendor/Underscore/underscore-min.js"></script>
+<script src="js/src/main.js"></script>
+
+</body>
+</html>
