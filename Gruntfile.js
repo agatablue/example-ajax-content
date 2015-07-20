@@ -10,18 +10,6 @@ module.exports = function (grunt) {
                 jshintrc: true
             }
         },
-        jade: {
-            compile: {
-                options: {
-                    data: {
-                        debug: false
-                    }
-                },
-                files: {
-                    'index2.html': ['templates/jade/*.jade']
-                }
-            }
-        },
 
         casperjs: {
             options: {
@@ -32,14 +20,6 @@ module.exports = function (grunt) {
             files: ['tests/casperjs/spec/*.js']
         },
 
-        jasmine: {
-            src: 'js/src/**/*.js',
-            options: {
-                specs: 'tests/jasmine/test_*.js',
-                helpers: 'tests/helpers/helper_*.js',
-                vendor: 'vendor/**/*.js'
-            }
-        },
 
 
         watch: {

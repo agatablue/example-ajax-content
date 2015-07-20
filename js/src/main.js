@@ -27,6 +27,7 @@ $(function () {
             three: 'three'
         };
 
+
         /* Change class
             @param string className
          */
